@@ -1,0 +1,306 @@
+/*--
+	Theme Name: theme45885
+	Theme URI: http://template-help.com/
+	Description: A theme for Wordpress 3.5.x + from Template-Help.com Collection
+	Author: Template_Help.com
+	Author URL: http://www.Template-Help.com/
+	Template: CherryFramework
+	Version: 2.1
+	MotoPress Version: 1.0
+--*/
+@import url("main-style.css");
+body .header {
+   	background-color: transparent;
+    border-bottom: 0px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+body .nav.nav__primary{
+	margin-top:0px !important;
+}
+body .nav.nav__primary ul.sf-menu li.current_page_item a, body .nav.nav__primary ul.sf-menu .sfHover a, body .nav.nav__primary ul.sf-menu li a:hover {
+    color: #aab5f7;
+    background: none;
+    font-size: 16px;
+    line-height: 26px;
+}
+body #headertopnav li a {
+    background: #4414eb;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-family: "Trebuchet MS";
+    padding: 6px 22px;
+}
+body #headertopnav li{
+	margin-right: 17px;
+}
+body nav.nav_top{
+	margin-bottom: 40px;
+}
+body .slider > .container .camera_next span:before{
+	display: none;
+}
+body .slider > .container .camera_prev span:before{
+	display: none;
+}
+body .slider > .container .camera_next span:after{
+	display: none;
+}
+body .slider > .container .camera_prev{
+    width: 37px;
+    height: 37px;
+    bottom: auto;
+    top: 48%;
+    left: 10px;
+}
+body .slider > .container .camera_next{
+    width: 37px;
+    height: 37px;
+    bottom: auto;
+    top: 48%;
+    right: 10px;
+    left: auto;
+    margin-left: 0px;
+}
+.slider > .container .camera_next span {
+    background: url(images/next.png) 16px 12px #4414eb no-repeat;
+    width: 37px;
+    height: 37px;
+    border-radius: 23px;
+}
+.slider > .container .camera_prev span {
+    background: url(images/prev.png) 13px 12px #4414eb no-repeat;
+    width: 37px;
+    height: 37px;
+    border-radius: 22px;
+}
+body #slider-wrapper .camera_wrap {
+    max-height: 600px !important;
+}
+.home .page{
+	margin-top: 0px !important;
+}
+body.home .type-page .row .span3{
+	background: #fff;
+}
+body.home .type-page .row .span3 .easyRotatorWrapper{
+	overflow: hidden;
+}
+body.home .type-page .row .span3 h3{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    color: #484646;
+    font-weight: bold;
+    margin: 10px 0;
+}
+body.home .type-page .row .span3 .home-more{
+    font-size: 12px;
+    line-height: 26px;
+    font-family: "arial";
+    font-weight: bold;
+    background: #4515f0;
+    border: 1px solid #000;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 88px;
+}
+.dwuserEasyRotator img{
+	max-width: 100% !important;
+    width: 100% !important;
+    left: 0 !important;
+    height: 200px !important;
+    top: 0 !important;
+}
+.dwuserEasyRotator .erimgMain_arrowRight img, .dwuserEasyRotator .erimgMain_arrowLeft img{
+	height: auto !important;
+}
+.dwuserEasyRotator .erimgMain_arrowLeft{
+	display: block !important;
+	opacity: 1 !important;
+}
+.home .slider_wrap {
+	margin-bottom: 43px;
+}
+body .content-holder{
+	padding-bottom: 125px;
+}
+.footer {
+    background: #4515f0;
+    padding-top: 90px;
+    border: none;
+    padding-bottom: 90px;
+}
+nav.footer-nav #menu-footer-menu li{
+	float: none;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #7c7a7a;
+}
+body nav.footer-nav ul li.current-menu-item a {
+    text-decoration: none;
+}
+body nav.footer-nav {
+    float: left;
+    overflow: hidden;
+    margin-left: 35px;
+}
+body .footer .social-nets-wrapper span {
+    color: #bfbfbf;
+    text-transform: capitalize;
+}
+body .footer .social-nets-wrapper {
+    text-align: left;
+}
+body .footer .footer-text p {
+    padding-top: 8px;
+    color: #a7c0f8;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 6px;
+}
+body .footer .footer-text a {
+    color: #a7c0f8;
+    font-size: 13px;
+    line-height: 24px;
+}
+body #headertopnav li a:hover{
+    background: #fff;
+    color: #000;
+}
+body .title-section{
+	padding-top: 0px;
+}
+body .title-section .breadcrumb li a, body .title-section .breadcrumb li{
+    color: #e5e0f8;
+	text-transform: capitalize;    
+}
+body .title-section .breadcrumb .divider {
+    margin: 0 12px;
+    color: #e5e0f8;
+}
+body .title-section .breadcrumb{
+	line-height: 18px;
+}
+.client-box{
+    background: #fff;
+    padding: 10px;
+}
+.client-box img{
+    width: 100%;
+    margin: 0;
+}
+.client-box h4 {
+    color: #1c076e;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+.client-box p, .client-box ol li{
+	color: #595959;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0;
+}
+.client-box ol li{
+	list-style-type: upper-alpha;
+}
+.client-box ol{
+	margin-left: 20px;
+}
+.client-box{
+	margin-top: 35px;
+}
+.page-id-14 #content h2{
+	line-height: 28px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+address strong{
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+    line-height: 24px;
+}
+address{
+    font-family: "Trebuchet MS";
+    line-height: 22px;
+}
+.wpcf7-form p.field input, .wpcf7-form textarea {
+    line-height: 24px;
+    border-radius: 0;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    background: #f0efef;
+}
+.wpcf7-form input[type="reset"], .wpcf7-form input[type="submit"]{
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 24px;
+    background: #592df2;
+    text-align: center;
+    padding: 10px 33px;
+}
+body .wpcf7-form .submit-wrap input {
+    margin-right: 30px;
+}
+.service-boxes h3{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #000;
+    line-height: 24px;
+    font-size: 20px;
+    margin: 9px 0 5px;
+}
+.service-boxes p, .service-boxes li{
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+.service-img img.alignleft{
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.23);
+}
+.service-img img.alignright{
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.23);
+}
+.span12 .service-boxes{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #459dc7;
+}
+.span6 .service-boxes{
+    border: 0px !important;
+    max-width: 520px;
+    padding: 0 25px;
+    background: transparent;
+}
+.service-img img {
+    margin: -12px -2px 0 0;
+}
+.spacer{
+    height: 72px;
+}
+body.page-id-1889 .title-section{
+    margin-top: 0px;
+}
+
+@media (min-width: 1200px){
+	body.home .type-page .row .span3{
+	   	width: 257px;
+	    margin-left: 22px;
+	    border: 1px solid #9bd4f8;
+	    padding: 9px 9px 0px;
+	}
+}
