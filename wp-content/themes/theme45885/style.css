@@ -383,8 +383,6 @@ h2.member-title + p{
     line-height: 24px;
     font-family: "Trebuchet MS";
     font-size: 14px;
-    float: left;
-    min-width: 315px;
 }
 .gform_page_footer input[type='button'], .gform_page_footer input[type='submit']{
     background: #592df2;
@@ -403,17 +401,19 @@ h2.member-title + p{
     margin-bottom: 0px !important;
 }
 body .gform_wrapper label.gfield_label+div.ginput_container {
-    float: left;
-    min-width: 275px;
     color:#d0c4f8; 
     font-family: "Trebuchet MS";
-    max-width: 780px;
+}
+.gform_wrapper .gform_page_footer.left_label, .gform_wrapper .gform_page_footer.right_label{
+    padding-left: 0px !important;
 }
 .gform_wrapper ul.gfield_checkbox li, .gform_wrapper ul.gfield_radio li{
-    display: inline-block;
-    margin-right: 15px;
+    display: inline;
+    margin-right: 10px;
 }
-
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
+    max-width: 210px;
+}
 .gform_wrapper select option{
     color: #d0c4f8; 
     font-family: "Trebuchet MS";
@@ -428,7 +428,6 @@ body .gform_wrapper label.gfield_label+div.ginput_container {
 }
 body .gform_wrapper label.gfield_label + div.ginput_container textarea{
     background: transparent;
-    width: 815px;
     height: 60px;
     color: #d0c4f8;
 }
