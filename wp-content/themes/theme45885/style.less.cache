@@ -1051,4 +1051,4 @@ input[type="submit"].btn, input[type="reset"].btn {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
-";s:5:"files";a:3:{s:61:"C:\wamp64\www\akinito\wp-content\themes\theme45885\style.less";i:1415565350;s:80:"C:\wamp64\www\akinito\wp-content\themes\theme45885\bootstrap\less\variables.less";i:1495618932;s:77:"C:\wamp64\www\akinito\wp-content\themes\theme45885\bootstrap\less\mixins.less";i:1415565350;}s:7:"updated";i:1496028592;}
+";s:5:"files";a:3:{s:61:"C:\wamp64\www\akinito\wp-content\themes\theme45885\style.less";i:1415565350;s:80:"C:\wamp64\www\akinito\wp-content\themes\theme45885\bootstrap\less\variables.less";i:1496213156;s:77:"C:\wamp64\www\akinito\wp-content\themes\theme45885\bootstrap\less\mixins.less";i:1415565350;}s:7:"updated";i:1496213165;}

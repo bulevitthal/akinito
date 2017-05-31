@@ -423,16 +423,59 @@ body .gform_wrapper label.gfield_label+div.ginput_container {
     background: transparent;
     color: #d0c4f8;
 }
-#gform_page_1_1 .gfield_label{
-    min-width: 75px !important;
-}
+
 body .gform_wrapper label.gfield_label + div.ginput_container textarea{
     background: transparent;
     height: 60px;
     color: #d0c4f8;
 }
-
-
+body .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox]{
+    margin-top: 0px !important;
+}
+body .tml-login .tml-submit-wrap input {
+    margin: 0;
+    width: auto;
+    background: #592df2;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    height: auto;
+    border-radius: 5px;
+    font-family: "trebuchet MS";
+}
+body .tml ul.tml-action-links{
+    display: none;
+}
+.tml label {
+    color: #d0c4f8;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+}
+.tml{
+    margin:0 auto;
+    margin-top: 40px;
+}
+.tml input{
+    background: transparent;
+    border: 1px solid #d0c4f8;
+    height: 40px;
+    color: #fff;
+}
+.tml p{
+    margin-bottom: 10px !important;
+}
+body.page-id-2039 #post-2039{
+    text-align: center;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-family: "trebuchet MS";
+    font-weight: bold;
+}
+p.tml-rememberme-wrap{
+    text-align: left;
+}
 
 @media (min-width: 1200px){
 	body.home .type-page .row .span3{
