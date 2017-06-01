@@ -22,6 +22,7 @@ if ( ! function_exists( 'my_setup' ) ):
 		if ( function_exists( 'register_nav_menus' ) ) {
 			register_nav_menus(
 				array(
+					'header_mobile_menu' => 'Mobile Menu',
 					'header_top_menu' => 'Header Top Menu',
 					'header_menu' => theme_locals("header_menu"),
 					'footer_menu' => theme_locals("footer_menu")

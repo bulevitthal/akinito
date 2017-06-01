@@ -46,3 +46,7 @@ $(window).load(function() {
 $(window).resize(function(){
   equalheight('.service-boxes');
 });
+
+$(window).load(function(){
+  $('.span6 .service-boxes').css('position', 'relative');
+});

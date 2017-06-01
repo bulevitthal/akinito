@@ -484,5 +484,92 @@ p.tml-rememberme-wrap{
 	    border: 1px solid #9bd4f8;
 	    padding: 9px 9px 0px;
 	}
+    
 }
-
+@media (max-width: 1030px){
+    body .slider > .container .camera_prev, body .slider > .container .camera_next{
+        top: 28%;
+    }
+    body #slider-wrapper .camera_wrap{
+        max-height: 400px !important;
+    }
+    .easyRotatorWrapper .dwuserEasyRotator {
+        width: auto !important;
+    }
+    .span7 h2.about-heading {
+        margin-top: 25px;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    h2.about-heading:after{
+        margin-top: 5px;
+    }
+    .page-id-1889 #content .span7{
+        width: 100%;
+    }
+    .spacer{
+        height: 50px;
+    }
+    h2.about-heading {
+        margin-top: 20px;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .page-id-1889 #content p, #content ul li{
+        line-height: 22px
+    }
+    .span6 .service-boxes{
+        padding:0;
+    }
+}
+@media (max-width: 770px){
+    .nav.nav__primary ul.sf-menu li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    body #slider-wrapper .camera_wrap {
+        max-height: 285px !important;
+    }
+    .page-id-1889 #content .span7 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .page-id-1889 #content p, #content ul li {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .page-id-14 #content h2 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 760px){
+    body nav.footer-nav{
+        float: none !important;
+    }
+    body .footer .social-nets-wrapper {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .span12 .service-boxes{
+        display: none;
+    }
+    .service-img{
+        text-align: center;
+    }
+    .span6 .service-boxes{
+        background: #fff;
+        padding: 17px;
+        max-width: 95%;
+        display: block !important;
+    }
+    .service-img img.alignleft, .service-img img.alignright{
+        float: none !important;
+    }
+    #post-2037.status-publish{
+        text-align: center;
+    }
+    .page-id-2037 #content .span3 a{
+        max-width: 100%;
+    }
+}
